@@ -14,6 +14,7 @@
 		7AD6B7DF1E97446E005F26EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD6B7DD1E97446E005F26EE /* LaunchScreen.storyboard */; };
 		7AD6B7EA1E97446E005F26EE /* iOS_KeyboardTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6B7E91E97446E005F26EE /* iOS_KeyboardTestTests.swift */; };
 		7AD6B7F51E97446E005F26EE /* iOS_KeyboardTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6B7F41E97446E005F26EE /* iOS_KeyboardTestUITests.swift */; };
+		7AD6B8031E974490005F26EE /* SecoondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6B8021E974490005F26EE /* SecoondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7AD6B7F01E97446E005F26EE /* iOS_KeyboardTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_KeyboardTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD6B7F41E97446E005F26EE /* iOS_KeyboardTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_KeyboardTestUITests.swift; sourceTree = "<group>"; };
 		7AD6B7F61E97446E005F26EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD6B8021E974490005F26EE /* SecoondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecoondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				7AD6B7D41E97446D005F26EE /* AppDelegate.swift */,
 				7AD6B7D61E97446D005F26EE /* ViewController.swift */,
+				7AD6B8021E974490005F26EE /* SecoondViewController.swift */,
 				7AD6B7D81E97446D005F26EE /* Main.storyboard */,
 				7AD6B7DB1E97446E005F26EE /* Assets.xcassets */,
 				7AD6B7DD1E97446E005F26EE /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				7AD6B7D71E97446D005F26EE /* ViewController.swift in Sources */,
 				7AD6B7D51E97446D005F26EE /* AppDelegate.swift in Sources */,
+				7AD6B8031E974490005F26EE /* SecoondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +518,7 @@
 				7AD6B7FB1E97446E005F26EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AD6B7FC1E97446E005F26EE /* Build configuration list for PBXNativeTarget "iOS_KeyboardTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				7AD6B7FE1E97446E005F26EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AD6B7FF1E97446E005F26EE /* Build configuration list for PBXNativeTarget "iOS_KeyboardTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				7AD6B8011E97446E005F26EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
